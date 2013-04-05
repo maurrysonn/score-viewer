@@ -1,0 +1,8 @@
+# Fichiers de projet Aptana/Eclipse
+.project
+
+# Fichiers de données
+data/*
+
+# Fichier de config du projet
+config.json

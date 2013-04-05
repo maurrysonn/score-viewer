@@ -1,0 +1,10 @@
+{
+	"timestamp": "1",
+	"files": ["/data/bcc.png", "/data/bcc_1.png"],
+	"opts": {
+		"fx": "fade",
+		"delay": 2000,
+		"timeout": 5000,
+		"speed": 2000
+	}
+}
