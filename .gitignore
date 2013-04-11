@@ -2,7 +2,10 @@
 .project
 
 # Fichiers de données
-data/*
+viewer/data/*
 
 # Fichier de config du projet
-config.json
+viewer/config.json
+
+# Python files
+*.py[cod]
