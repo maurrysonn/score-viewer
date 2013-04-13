@@ -1,11 +1,26 @@
-# Fichiers de projet Aptana/Eclipse
+# ------
+# Aptana/Eclipse
+# ------
+.metadata
 .project
+.pydevproject
+.settings
 
-# Fichiers de données
+# ------
+# Viewer
+# ------
+# Donnees du viewer
 viewer/data/*
-
-# Fichier de config du projet
+!viewer/data/.empty
+# Fichier de config du viewer
 viewer/config.json
+
+
+# ------
+# Viewer
+# ------
+# Virtual env
+editor/apps
 
 # Python files
 *.py[cod]
