@@ -6,12 +6,15 @@ from widgets.editor_widget import EditorWidget
 import sys
 
 
+PATH_VIEWER_DATA = "/home/apernette/www/viewer.besanconcc.fr/data/"
+
 def main():
     
     # Create a Qt application
     app = QApplication(sys.argv)
     # Create Main Editor Widget
     editor = EditorWidget()
+    editor.set_root_path(PATH_VIEWER_DATA)
     editor.show()
     # Enter Qt application main loop
     app.exec_()

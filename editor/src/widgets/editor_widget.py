@@ -16,7 +16,7 @@ class EditorWidget(QWidget):
         self._create_ui()
         # Create layout
         self._create_layout()
-        
+        # Initialize
         
     def _create_ui(self):
         self._file_selector = FileSelectorWidget(self)
@@ -24,7 +24,11 @@ class EditorWidget(QWidget):
         
     
     def _create_layout(self):
-        main_layout = QVBoxLayout(self)
+        main_layout = QVBoxLayout()
         main_layout.addWidget(self._file_selector)
         main_layout.addWidget(self._options_viewer)
         self.setLayout(main_layout)
+        
+    def set_root_path(self, path=None):
+        self._file_selector.set_root_path(path)
+        

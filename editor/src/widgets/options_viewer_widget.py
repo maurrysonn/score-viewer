@@ -23,7 +23,7 @@ class OptionsViewerWidget(QWidget):
     
     def _create_layout(self):
         # Main layout
-        main_layout = QHBoxLayout(self)
+        main_layout = QHBoxLayout()
         # Add label
         main_layout.addWidget(self._label)
         # Set the layout
